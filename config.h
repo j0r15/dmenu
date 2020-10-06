@@ -21,7 +21,7 @@ static unsigned int lines      = 5;  /* -l option; if nonzero, dmenu uses vertic
 static const char *colors[SchemeLast][2] = {
 	               /* fground    bground */
 	[SchemeNorm] = { "#dfe4ed", "#1b1f26" },
-	[SchemeSel]  = { "#88c0d0", "#1b1f26" },
+	[SchemeSel]  = { "#dfe4ed", "#1b1f26" },
 	[SchemeOut]  = { "#dfe4ed", "#1b1f26" },
 };
 
