@@ -20,8 +20,8 @@ static unsigned int lines      = 5;  /* -l option; if nonzero, dmenu uses vertic
 /* colors */
 static const char *colors[SchemeLast][2] = {
 	               /* fground    bground */
-	[SchemeNorm] = { "#dfe4ed", "#1b1f26" },
-	[SchemeSel]  = { "#dfe4ed", "#1b1f26" },
+	[SchemeNorm] = { "#fff", "#393939" },
+	[SchemeSel]  = { "#fff", "#3636ff" },
 	[SchemeOut]  = { "#dfe4ed", "#1b1f26" },
 };
 
@@ -35,3 +35,4 @@ static const char worddelimiters[] = " ";
 static const unsigned int border_width = 1;
 
 static int min_width = 400;
+
